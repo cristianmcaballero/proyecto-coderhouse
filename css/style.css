@@ -1,10 +1,6 @@
 * {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    background-color: black;
+
     color: white;
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 .boton-inicio {
@@ -24,18 +20,19 @@ a {
     text-decoration: none;
 }
 
-main {
-    width: 100%;
-    height: 1000px;
-}
-
 .img-l {
     text-align: center;
-    border-radius: 20px;
-    
-
+    height: 700px;
 }
 
+.img {
+    margin-top: 70px;
+    border-radius: 30px;
+}
+
+.art-texto{
+    height: 400px;
+}
 footer {
     width: 100%;
     height: 300px;
@@ -43,13 +40,16 @@ footer {
 
 .footerH2 {
     font-size: 40px;
-    border: 2px solid white;
+    text-align: center;
+
 }
 
 .footerA {
     padding: 10px;
     text-align: right;
     font-size: 24px;
-    border: 2px solid white;
+}
 
+.h2Contactos {
+    text-align: center;
 }
