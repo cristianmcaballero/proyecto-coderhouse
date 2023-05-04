@@ -1,42 +1,38 @@
 * {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    background-color: black;
+
     color: white;
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
+
 .boton-inicio {
     width: 100%;
     height: 200px;
-    text-align: center;
-
-
-}
-a {
-
-    text-decoration: none;
-}
-header div a {
     border: none;
     padding: 10px 20px;
-    text-align: center;
+    text-align: left;
     text-decoration: none;
     display: inline-block;
     font-size: 26px;
     margin: 4px 2px;
+
 }
 
-main {
-    width: 100%;
-    height: 1000px;
+a {
+    text-decoration: none;
 }
 
 .img-l {
     text-align: center;
-    
+    height: 700px;
 }
 
+.img {
+    margin-top: 70px;
+    border-radius: 30px;
+}
+
+.art-texto{
+    height: 400px;
+}
 footer {
     width: 100%;
     height: 300px;
@@ -44,11 +40,16 @@ footer {
 
 .footerH2 {
     font-size: 40px;
+    text-align: center;
+
 }
 
 .footerA {
     padding: 10px;
     text-align: right;
     font-size: 24px;
+}
 
+.h2Contactos {
+    text-align: center;
 }
