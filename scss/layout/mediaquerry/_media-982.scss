@@ -1,0 +1,14 @@
+@media (max-width:982px) {
+
+    .gridMain {
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+        grid-template-areas:
+            "artImg secLore2"
+            "navLink navLink"
+            "secLore secLore"
+
+        ;
+    }
+
+}
