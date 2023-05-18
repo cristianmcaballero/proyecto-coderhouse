@@ -9,3 +9,76 @@
 @import "./layout/mediaquerry/media-768";
 @import "./layout/mediaquerry/media-576";
 
+
+
+
+
+
+.headerSecundario {
+    width: 100%;
+    height: 200px;
+    div { 
+        a {margin: 20PX 5px;
+
+        }
+    }
+
+}
+
+.mainSecundario {
+    width: 100%;
+    height: 1200px;
+    font-size: 20px;
+
+    div {
+        width: 100%;
+        height: 300px;
+        text-align: center;
+
+        img {
+            margin-top: 20px;
+            width: 500px;
+            height: 300px;
+            border-radius: 8%;
+        }
+    }
+
+    article {
+        width: 100%;
+        height: 500px;
+
+        h1 {padding: 10px;
+            margin-top: 40px;
+            font-size: 50px
+
+        }
+
+        p {
+            padding-top: 20px;
+            font-size: 20px;
+        }
+    }
+}
+
+.footerSecundario {
+    width: 100%;
+    height: 500px;
+    text-align: center;
+    padding-top: 100px;
+
+    div {
+        width:100%;
+        height:200px;
+        h2 {
+            font-size: 40px;
+
+        }
+
+    }
+    nav { width:100%;
+        height:200px;
+        a {
+            font-size: 30px;
+        }
+    }
+}

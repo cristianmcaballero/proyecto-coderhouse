@@ -15,17 +15,23 @@
 
 }
 
-// .artImg {
-
-//     grid-area: artImg;
-//     height: fit-content;
-//     margin-top: 100px;
-// }
+.artImg {
+    grid-area: artImg;
+    margin-top: 50%;
 
 
-// ul {
-//     list-style: none;
-// }
+    img {
+        width: 300px;
+        height: 300px;
+        border-radius: 40%;
+
+    }
+}
+
+
+ul {
+    list-style: none;
+}
 
 .secLore2 {
     grid-area: secLore2;
@@ -44,9 +50,7 @@
     margin-bottom: 100px;
     margin-top: 100px;
     margin-left: 0px;
-
     border-radius: 20px;
-
     margin-right: 10px;
     text-align: center;
 }
@@ -57,48 +61,98 @@
     padding: 10px;
 }
 
-.lionel-nadbar {
-    margin-bottom: 10px;
-    width: 300px;
-    height: 200px;
-    border-radius: 20px;
 
+main {
+    .secLore2 {
+        div {
+            p 
+            {
+font-size: 18px;
+text-align: justify;
+            }
+
+        }
+    }
+
+    .secLore {
+        h2 {
+            font-size:40px;
+        }
+
+        p {
+        text-align: justify;
+        font-size: 18px;
+        }
+    }
+
+    nav {
+        ul {
+            li {
+                .lionel-nadbar {
+                    margin-bottom: 10px;
+                    width: 300px;
+                    height: 200px;
+                    border-radius: 20px;
+
+                }
+
+            }
+
+            li {
+                .jon-nadbar {
+                    margin-bottom: 10px;
+                    width: 300px;
+                    height: 200px;
+                    border-radius: 20px;
+                }
+            }
+
+            li {
+                .michael-nadbar {
+                    margin-bottom: 10px;
+                    width: 300px;
+                    height: 200px;
+                    border-radius: 20px;
+                }
+            }
+
+            li {
+                .mohamed-nadbar {
+                    margin-bottom: 10px;
+                    width: 300px;
+                    height: 200px;
+                    border-radius: 20px;
+                }
+
+            }
+
+            li {
+                .tiger-nadbar {
+                    margin-bottom: 10px;
+                    width: 300px;
+                    height: 200px;
+                    border-radius: 20px;
+                }
+            }
+
+            li {
+                .nadal-nadbar {
+                    width: 300px;
+                    height: 200px;
+                    border-radius: 20px;
+
+                }
+            }
+        }
+    }
 }
 
-.jon-nadbar {
-    margin-bottom: 10px;
-    width: 300px;
-    height: 200px;
-    border-radius: 20px;
-}
 
-.michael-nadbar {
-    margin-bottom: 10px;
-    width: 300px;
-    height: 200px;
-    border-radius: 20px;
-}
 
-.mohamed-nadbar {
-    margin-bottom: 10px;
-    width: 300px;
-    height: 200px;
-    border-radius: 20px;
-}
 
-.tiger-nadbar {
-    margin-bottom: 10px;
-    width: 300px;
-    height: 200px;
-    border-radius: 20px;
-}
 
-.nadal-nadbar {
-    width: 300px;
-    height: 200px;
-    border-radius: 20px;
 
-}
+
 
 
 .p3 {
@@ -112,4 +166,3 @@
     margin-top: 100px;
 
 }
-

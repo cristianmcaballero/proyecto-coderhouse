@@ -77,8 +77,12 @@ header div a {
 
 .artImg {
   grid-area: artImg;
-  height: fit-content;
-  margin-top: 100px;
+  margin-top: 50%;
+}
+.artImg img {
+  width: 300px;
+  height: 300px;
+  border-radius: 40%;
 }
 
 ul {
@@ -111,42 +115,48 @@ ul {
   padding: 10px;
 }
 
-.lionel-nadbar {
+main .secLore2 div p {
+  font-size: 18px;
+  text-align: justify;
+}
+main .secLore h2 {
+  font-size: 40px;
+}
+main .secLore p {
+  text-align: justify;
+  font-size: 18px;
+}
+main nav ul li .lionel-nadbar {
   margin-bottom: 10px;
   width: 300px;
   height: 200px;
   border-radius: 20px;
 }
-
-.jon-nadbar {
+main nav ul li .jon-nadbar {
   margin-bottom: 10px;
   width: 300px;
   height: 200px;
   border-radius: 20px;
 }
-
-.michael-nadbar {
+main nav ul li .michael-nadbar {
   margin-bottom: 10px;
   width: 300px;
   height: 200px;
   border-radius: 20px;
 }
-
-.mohamed-nadbar {
+main nav ul li .mohamed-nadbar {
   margin-bottom: 10px;
   width: 300px;
   height: 200px;
   border-radius: 20px;
 }
-
-.tiger-nadbar {
+main nav ul li .tiger-nadbar {
   margin-bottom: 10px;
   width: 300px;
   height: 200px;
   border-radius: 20px;
 }
-
-.nadal-nadbar {
+main nav ul li .nadal-nadbar {
   width: 300px;
   height: 200px;
   border-radius: 20px;
@@ -164,14 +174,15 @@ ul {
 }
 
 footer {
-  height: auto;
+  width: 100%;
+  height: 700px;
 }
-
-.contactos {
+footer div {
+  width: auto;
+  height: 300px;
   padding-top: 40px;
 }
-
-.contactos h2 {
+footer div h2 {
   margin: top 100px;
   border-radius: 20px;
   font-size: 30px;
@@ -180,42 +191,39 @@ footer {
   color: black;
   text-align: center;
 }
-
-.nabRedes {
+footer nav {
+  width: auto;
+  height: 400px;
   font-size: 24px;
   height: 80px;
   margin-top: 100px;
-  text-align: end;
+  text-align: center;
   text-decoration: none;
 }
-
-.fooIns {
-  width: fit-content;
+footer nav ul li {
+  width: 150px;
   border-radius: 20px;
   padding: 3px;
   background-color: white;
   color: black;
   text-decoration: none;
 }
-
-.fooFac {
-  width: fit-content;
+footer nav ul li {
+  width: 150px;
   border-radius: 20px;
   padding: 3px;
   background-color: white;
   color: black;
   text-decoration: none;
 }
-
-.fooWha {
-  width: fit-content;
+footer nav ul li {
+  width: 150px;
   border-radius: 20px;
   padding: 3px;
   background-color: white;
   color: black;
   text-decoration: none;
 }
-
 @media (max-width: 1648px) {
   .gridMain {
     grid-template-columns: repeat(2, 1fr);
@@ -250,6 +258,64 @@ footer {
     grid-template-rows: repeat(4, 1fr);
     grid-template-areas: "artImg" "secLore2" "navLink " "secLore";
   }
+}
+.headerSecundario {
+  width: 100%;
+  height: 200px;
+}
+.headerSecundario div a {
+  margin: 20PX 5px;
+}
+
+.mainSecundario {
+  width: 100%;
+  height: 1200px;
+  font-size: 20px;
+}
+.mainSecundario div {
+  width: 100%;
+  height: 300px;
+  text-align: center;
+}
+.mainSecundario div img {
+  margin-top: 20px;
+  width: 500px;
+  height: 300px;
+  border-radius: 8%;
+}
+.mainSecundario article {
+  width: 100%;
+  height: 500px;
+}
+.mainSecundario article h1 {
+  padding: 10px;
+  margin-top: 40px;
+  font-size: 50px;
+}
+.mainSecundario article p {
+  padding-top: 20px;
+  font-size: 20px;
+}
+
+.footerSecundario {
+  width: 100%;
+  height: 500px;
+  text-align: center;
+  padding-top: 100px;
+}
+.footerSecundario div {
+  width: 100%;
+  height: 200px;
+}
+.footerSecundario div h2 {
+  font-size: 40px;
+}
+.footerSecundario nav {
+  width: 100%;
+  height: 200px;
+}
+.footerSecundario nav a {
+  font-size: 30px;
 }
 
 /*# sourceMappingURL=style.css.map */

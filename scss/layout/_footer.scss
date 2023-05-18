@@ -1,57 +1,69 @@
 footer {
-    height: auto;
-}
+    width: 100%;
+    height: 700px;
 
-.contactos {
-    padding-top: 40px;
-}
+    div {
+        width: auto;
+        height: 300px;
+        padding-top: 40px;
 
-.contactos h2 {
-    margin: top 100px;
-    ;
-    border-radius: 20px;
-    font-size: 30px;
-    padding: 10px 10px;
-    background-color: white;
-    color: black;
-    text-align: center;
-
-}
-
+        h2 {
+            margin: top 100px;
+            ;
+            border-radius: 20px;
+            font-size: 30px;
+            padding: 10px 10px;
+            background-color: white;
+            color: black;
+            text-align: center;
 
 
+        }
+    }
 
-.nabRedes {
-    font-size: 24px;
-    height: 80px;
-    margin-top: 100px;
-    text-align: end;
-    text-decoration: none;
-}
+    nav {
+        width: auto;
+        height: 400px;
+        font-size: 24px;
+        height: 80px;
+        margin-top: 100px;
+        text-align:center;
+        text-decoration: none;
 
-.fooIns {
-    width: fit-content;
-    border-radius: 20px;
-    padding: 3px;
-    background-color: white;
-    color: black;
-    text-decoration: none;
-}
+        ul {
+            li {
+                width: 150px;
+                border-radius: 20px;
+                padding: 3px;
+                background-color: white;
+                color: black;
+                text-decoration: none;
 
-.fooFac {
-    width: fit-content;
-    border-radius: 20px;
-    padding: 3px;
-    background-color: white;
-    color: black;
-    text-decoration: none; 
-}
+                a {}
+            }
 
-.fooWha {
-    width: fit-content;
-    border-radius: 20px;
-    padding: 3px;
-    background-color: white;
-    color: black;
-    text-decoration: none;
+            li {
+                width: 150px; 
+                border-radius: 20px;
+                padding: 3px;
+                background-color: white;
+                color: black;
+                text-decoration: none;
+
+                a {}
+            }
+
+            li {
+                width: 150px;
+                border-radius: 20px;
+                padding: 3px;
+                background-color: white;
+                color: black;
+                text-decoration: none;
+
+                a {}
+            }
+
+        }
+    }
 }
