@@ -4,6 +4,11 @@
   box-sizing: border-box;
 }
 
+.headerPrimario {
+  width: 100%;
+  height: 500px;
+}
+
 h1 {
   text-align: center;
   font-size: 50px;
@@ -55,18 +60,9 @@ h1 {
   border: 3px solid black;
 }
 
-header div a {
-  border: none;
-  padding: 10px 20px;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 26px;
-  margin: 4px 2px;
-}
-
-.gridMain {
+.mainPrimario {
   display: grid;
-  grid-template-columns: 20% repeat(2, 1fr);
+  grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(2, 1fr);
   grid-template-areas: "artImg secLore2 secLore2" "navLink secLore secLore";
 }
@@ -77,11 +73,12 @@ header div a {
 
 .artImg {
   grid-area: artImg;
-  margin-top: 50%;
+  margin-top: 200px;
+  margin-left: 20%;
 }
 .artImg img {
-  width: 300px;
-  height: 300px;
+  width: 400px;
+  height: 400px;
   border-radius: 40%;
 }
 
@@ -95,7 +92,8 @@ ul {
   border-radius: 20px;
   text-align: center;
   height: fit-content;
-  margin-top: 200px;
+  margin-top: 100px;
+  margin-right: 20px;
 }
 
 .secLore {
@@ -103,20 +101,27 @@ ul {
   padding: 20px 10px;
   margin-bottom: 100px;
   margin-top: 100px;
-  margin-left: 0px;
   border-radius: 20px;
-  margin-right: 10px;
-  text-align: center;
+  margin-right: 30px;
+  text-align: right;
+  height: fit-content;
+}
+.secLore p {
+  font-size: 30px;
 }
 
 .secLore h2 {
   text-align: center;
   margin-bottom: 100px;
   padding: 10px;
+  height: fit-content;
 }
 
+main {
+  width: auto;
+}
 main .secLore2 div p {
-  font-size: 18px;
+  font-size: 22px;
   text-align: justify;
 }
 main .secLore h2 {
@@ -124,7 +129,13 @@ main .secLore h2 {
 }
 main .secLore p {
   text-align: justify;
-  font-size: 18px;
+  font-size: 22px;
+}
+main nav {
+  grid-area: navLink;
+  margin-left: 20%;
+  width: 450px;
+  height: fit-content;
 }
 main nav ul li .lionel-nadbar {
   margin-bottom: 10px;
@@ -162,27 +173,16 @@ main nav ul li .nadal-nadbar {
   border-radius: 20px;
 }
 
-.p3 {
-  margin-top: 70px;
-}
-
-.imgGoats {
+.footerPrincipal {
   width: 100%;
-  height: 400px;
-  border-radius: 20px;
-  margin-top: 100px;
+  height: 780px;
 }
-
-footer {
-  width: 100%;
-  height: 700px;
-}
-footer div {
+.footerPrincipal div {
   width: auto;
   height: 300px;
   padding-top: 40px;
 }
-footer div h2 {
+.footerPrincipal div h2 {
   margin: top 100px;
   border-radius: 20px;
   font-size: 30px;
@@ -191,7 +191,7 @@ footer div h2 {
   color: black;
   text-align: center;
 }
-footer nav {
+.footerPrincipal nav {
   width: auto;
   height: 400px;
   font-size: 24px;
@@ -200,7 +200,7 @@ footer nav {
   text-align: center;
   text-decoration: none;
 }
-footer nav ul li {
+.footerPrincipal nav ul li {
   width: 150px;
   border-radius: 20px;
   padding: 3px;
@@ -208,7 +208,7 @@ footer nav ul li {
   color: black;
   text-decoration: none;
 }
-footer nav ul li {
+.footerPrincipal nav ul li {
   width: 150px;
   border-radius: 20px;
   padding: 3px;
@@ -216,7 +216,7 @@ footer nav ul li {
   color: black;
   text-decoration: none;
 }
-footer nav ul li {
+.footerPrincipal nav ul li {
   width: 150px;
   border-radius: 20px;
   padding: 3px;
@@ -224,36 +224,37 @@ footer nav ul li {
   color: black;
   text-decoration: none;
 }
+
 @media (max-width: 1648px) {
-  .gridMain {
+  .mainPrimario {
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(3, 1fr);
     grid-template-areas: "artImg secLore2" "navLink secLore" "navLink secLore";
   }
 }
 @media (max-width: 1200px) {
-  .gridMain {
+  .mainPrimario {
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(3, 1fr);
     grid-template-areas: "artImg secLore2" "navLink navLink" "secLore secLore";
   }
 }
 @media (max-width: 982px) {
-  .gridMain {
+  .mainPrimario {
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(3, 1fr);
     grid-template-areas: "artImg secLore2" "navLink navLink" "secLore secLore";
   }
 }
 @media (max-width: 768px) {
-  .gridMain {
+  .mainPrimario {
     grid-template-columns: 1fr;
     grid-template-rows: repeat(4, 1fr);
     grid-template-areas: "artImg" "secLore2" "navLink " "secLore";
   }
 }
-@media (max-width: 576px) {
-  .gridMain {
+@media (max-width: 320px) {
+  .mainPrimario {
     grid-template-columns: 1fr;
     grid-template-rows: repeat(4, 1fr);
     grid-template-areas: "artImg" "secLore2" "navLink " "secLore";
@@ -269,7 +270,7 @@ footer nav ul li {
 
 .mainSecundario {
   width: 100%;
-  height: 1200px;
+  height: 2400px;
   font-size: 20px;
 }
 .mainSecundario div {
@@ -296,10 +297,44 @@ footer nav ul li {
   padding-top: 20px;
   font-size: 20px;
 }
+.mainSecundario .productos {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 700px;
+  width: 100%;
+  height: 400px;
+}
+.mainSecundario .productos div h2 {
+  background-color: white;
+  width: 170px;
+  height: 40p;
+  border: 3px solid black;
+  border-radius: 20px;
+  text-align: center;
+  font-size: 40px;
+}
+.mainSecundario .productos div .card {
+  width: 400px;
+  height: 520px;
+  border: 3px solid black;
+  border-radius: 20px;
+  align-items: center;
+}
+.mainSecundario .productos div .card img {
+  width: 50%;
+  height: 50%;
+}
+.mainSecundario .productos div .card div h5 {
+  padding: 20px;
+  font-size: 30px;
+}
+.mainSecundario .productos div .card div p {
+  text-align: justify;
+}
 
 .footerSecundario {
   width: 100%;
-  height: 500px;
+  height: 780px;
   text-align: center;
   padding-top: 100px;
 }

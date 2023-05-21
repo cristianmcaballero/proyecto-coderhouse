@@ -17,8 +17,10 @@
 .headerSecundario {
     width: 100%;
     height: 200px;
-    div { 
-        a {margin: 20PX 5px;
+
+    div {
+        a {
+            margin: 20PX 5px;
 
         }
     }
@@ -27,7 +29,7 @@
 
 .mainSecundario {
     width: 100%;
-    height: 1200px;
+    height: 2400px;
     font-size: 20px;
 
     div {
@@ -47,10 +49,10 @@
         width: 100%;
         height: 500px;
 
-        h1 {padding: 10px;
+        h1 {
+            padding: 10px;
             margin-top: 40px;
             font-size: 50px
-
         }
 
         p {
@@ -58,25 +60,75 @@
             font-size: 20px;
         }
     }
+
+    .productos {
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 700px;
+        width: 100%;
+        height: 400px;
+
+        div {
+            h2 {background-color:white;
+                width: 170px;
+                height: 40p;
+                border: 3px solid black;
+                border-radius: 20px;
+                text-align: center;
+                font-size: 40px;
+            }
+
+            .card {
+                width: 400px;
+                height: 520px;
+                border: 3px solid black;
+                border-radius: 20px;
+                align-items:center;
+                
+
+                img {
+                    width: 50%;
+                    height: 50%;
+                }
+
+                div {
+                    h5 {
+                        padding: 20px;
+                        font-size: 30px;
+                    }
+
+                    p {
+                        text-align: justify;
+                    }
+
+                }
+
+            }
+        }
+    }
 }
 
 .footerSecundario {
     width: 100%;
-    height: 500px;
+    height: 780px;
     text-align: center;
     padding-top: 100px;
 
     div {
-        width:100%;
-        height:200px;
+        width: 100%;
+        height: 200px;
+
         h2 {
             font-size: 40px;
 
         }
 
     }
-    nav { width:100%;
-        height:200px;
+
+    nav {
+        width: 100%;
+        height: 200px;
+
         a {
             font-size: 30px;
         }
