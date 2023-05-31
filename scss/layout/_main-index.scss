@@ -1,6 +1,6 @@
 .mainPrimario {
     display: grid;
-    grid-template-columns:repeat(3, 1fr);
+    grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(2, 1fr);
     grid-template-areas:
 
@@ -18,7 +18,7 @@
 .artImg {
     grid-area: artImg;
     margin-top: 200px;
-    margin-left:20%;
+    margin-left: 20%;
 
 
 
@@ -42,7 +42,7 @@ ul {
     text-align: center;
     height: fit-content;
     margin-top: 100px;
-    margin-right:20px;
+    margin-right: 20px;
 }
 
 
@@ -50,6 +50,7 @@ ul {
     p {
         font-size: 30px;
     }
+
     grid-area: secLore;
     padding: 20px 10px;
     margin-bottom: 100px;
@@ -70,12 +71,12 @@ ul {
 
 main {
     width: auto;
+
     .secLore2 {
         div {
-            p 
-            {
-font-size: 22px;
-text-align: justify;
+            p {
+                font-size: 22px;
+                text-align: justify;
             }
 
         }
@@ -83,19 +84,32 @@ text-align: justify;
 
     .secLore {
         h2 {
-            font-size:40px;
+            font-size: 40px;
         }
 
         p {
-        text-align: justify;
-        font-size: 22px;
+            text-align: justify;
+            font-size: 22px;
         }
     }
 
-    nav { grid-area: navLink;
-        margin-left: 20% ;
+    nav {
+        grid-area: navLink;
+        margin-left: 20%;
         width: 450px;
         height: fit-content;
+
+        nav { display: contents;
+    
+            .botonLogo {
+                width: 315px;
+                text-align: center;
+                font-size: 30px;
+            }
+
+
+        }
+
         ul {
             li {
                 .lionel-nadbar {
@@ -156,4 +170,3 @@ text-align: justify;
         }
     }
 }
-

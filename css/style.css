@@ -137,6 +137,14 @@ main nav {
   width: 450px;
   height: fit-content;
 }
+main nav nav {
+  display: contents;
+}
+main nav nav .botonLogo {
+  width: 315px;
+  text-align: center;
+  font-size: 30px;
+}
 main nav ul li .lionel-nadbar {
   margin-bottom: 10px;
   width: 300px;
